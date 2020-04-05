@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie App</title>
-    <!-- API KEY d8ed3fb15f41207b2f36fc5e85b581f0 -->
-    <!-- API TOKEN 
-    eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkOGVkM2ZiMTVmNDEyMDdiMmYzNmZjNWU4NWI1ODFmMCIsInN1YiI6IjVlODk5OWY4ZDU1YzNkMDAxYTUzMTk5YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.z0sPyb8mqhgAymHYKV6Bq4trXDtn4n-Xw1bFGP-1zZQ
-    -->
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body class="font-sans bg-gray-900 text-white">
