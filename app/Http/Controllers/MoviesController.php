@@ -46,10 +46,6 @@ class MoviesController extends Controller
             'genres' => $genres,
         ]);
     }
-    // public function show()
-    // {
-    //     return view('show');
-    // }
 
     /**
      * Show the form for creating a new resource.
@@ -80,7 +76,13 @@ class MoviesController extends Controller
      */
     public function show($id)
     {
-        //
+        $movie = Http::withToken( config('services.tmdb.token') )
+        ->get('https://api.themoviedb.org/3/movie/'.$id.'?append_to_response=credits,videos,images')
+        ->json();
+        // dd($movie);
+        return view('show', [
+            'movie'=>$movie,
+        ]);
     }
 
     /**
